@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MİNİ KÜTÜPHANE WEB SAYFASI</title>
+</head>
+<body>
+    <h1>Hoş Geldiniz-Mini Kütüphane</h1>
+    <p>Bu sayfada kitap katagorilerine göz atabilir ve favori kitabınızı bizimle paylaşabilirsiniz</p>
+    <img src="kütüphane.jpg" alt="kütüphane-profili">
+    <p><a href="https://www.bookinton.com/" target="_blank">Kitap Öneri Sayfasına Git</a></p>
+    <h2>Kitap Katagorileri</h2>
+    <ol>
+        <li>Roman</li>
+        <li>Bilim Kurgu</li>
+        <li>Tarih</li>
+        <li>Biyografi</li>
+    </ol>
+    <h2>Okuma Alışkanlıklarım</h2>
+    <ul>
+        <li>Her gün en az 30 dakika okurum</li>
+        <li>Notlar alırım</li>
+        <li>Yeni çıkan ktapları takip ederim</li>
+    </ul>
+    <h2>Kitap Öneri Formu</h2>
+
+    <form>
+        <label for="kullaniciAdi">Kulalnıcı Adı:</label><br>
+        <input type="text" id="kullaniciAdi" name="kullaniciAdi" required><br><br>
+        <label for="kategori">Kitap Kategorisi:</label><br><br>
+        <select name="kategori" id="kategori">
+            <option value="roman">Roman</option>
+            <option value="bilimkurgu">Bilim Kurgu</option>
+            <option value="tarih">Tarih</option>
+            <option value="biyografi">Biyografi</option>
+    
+        </select><br><br>
+         <label for="favoriKitap">Favori Kitabınız:</label><br><br>
+            <textarea name="favoriKitap" id="favoriKitap" rows="4" cols="30" placeholder="Kitap ismi ve kısa yorum"></textarea><br><br>
+            <button type="submit">Gönder</button>
+
+    </form>
+    
+</body>
+</html>
